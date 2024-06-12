@@ -98,7 +98,7 @@ static const char* xargv_cmd[64];
 int PARAMCOUNT = 0;
 
 // path configuration
-#define NB_OPTPATH 13
+#define NB_OPTPATH 14
 
 static const char *dir_name[NB_OPTPATH] =
 {
