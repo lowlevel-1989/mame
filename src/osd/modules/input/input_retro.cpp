@@ -152,7 +152,7 @@ keyboard_table_t const keyboard_table[] =
    {"LSUPER",        RETROK_LSUPER,       ITEM_ID_LSUPER},
    {"RSUPER",        RETROK_RSUPER,       ITEM_ID_RSUPER},
    {"VOLUME_DOWN",   RETROK_VOLUME_DOWN,  ITEM_ID_VOLUME_DOWN},
-   {"VOLUME_UP",     RETROK_VOLUME_UP,    ITEM_ID_VOLUME_UP}:s
+   {"VOLUME_UP",     RETROK_VOLUME_UP,    ITEM_ID_VOLUME_UP},
    {"-1",            -1,                  ITEM_ID_INVALID},
 };
 
