@@ -36,8 +36,8 @@ static bool libretro_supports_option_categories = false;
 bool libretro_supports_ff_override = false;
 bool libretro_ff_enabled = false;
 
-int fb_width       = 640;
-int fb_height      = 480;
+int fb_width       = 320;
+int fb_height      = 240;
 int max_width      = fb_width;
 int max_height     = fb_height;
 float retro_aspect = (float)4.0f / (float)3.0f;
