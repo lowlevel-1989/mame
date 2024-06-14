@@ -687,9 +687,20 @@ void retro_get_system_av_info(struct retro_system_av_info *info)
    info->geometry.base_height  = fb_height;
    info->geometry.aspect_ratio = retro_aspect;
 
+   if (log_cb)
+   {
+      log_cb(RETRO_LOG_INFO, "AV_INFO: width=%d height=%d\n",
+                       info->geometry.base_width,info->geometry.base_height);
+   }
+
    info->geometry.max_width    = max_width;
    info->geometry.max_height   = max_height;
 
+   if (log_cb)
+   {
+      log_cb(RETRO_LOG_INFO, "AV_INFO: max_width=%d max_height=%d\n",
+                       info->geometry.max_width,info->geometry.max_height);
+   }
    info->timing.fps            = retro_fps;
    info->timing.sample_rate    = sample_rate;
 }
